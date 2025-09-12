@@ -86,6 +86,9 @@ nav ul li a{
 }
 
 @media screen and (max-width:700px) {
+    nav ul{
+        display: none;
+    }
     .box-text,.box-img{
         width: 100%;
     }
@@ -99,4 +102,5 @@ nav ul li a{
     .box-text h1{
         font-size: 45px;
     }
+
 }
