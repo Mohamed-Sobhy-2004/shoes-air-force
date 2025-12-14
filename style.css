@@ -15,7 +15,7 @@ nav{
     align-items: center;
 }
 #Logo{
-    font-size: 30px;
+    font-size: 1.5em;
     text-decoration: none;
     color: white;
     font-weight: 900;
@@ -60,7 +60,7 @@ nav ul li a{
     width: 100%;
 }
 .box-text h1{
-    font-size: 60px;
+    font-size: 4em;
     margin-bottom: 30px;
 }
 .imgs{
@@ -86,7 +86,7 @@ nav ul li a{
 }
 
 @media screen and (max-width:700px) {
-    nav ul{
+    nav ul li{
         display: none;
     }
     .box-text,.box-img{
@@ -100,7 +100,31 @@ nav ul li a{
         padding: 10px 10px ;
     }
     .box-text h1{
-        font-size: 45px;
+        font-size: 3em;
     }
+    .box-text{
+        padding: 0px 0px;
+    }
+}
 
+@media screen and (max-width:500px){
+  
+    .imgs img{
+        width: 100px;
+        height: 100px;
+    }
+    nav{
+        padding: 10px 10px ;
+    }
+    .box-text h1{
+        font-size: 2.1rem;
+        text-align: center;
+    }
+    .box-text,.container-content{
+        padding: 0px 0px;
+    }
+    .Min-body{
+       
+        padding-top: 100px;
+    }
 }
